@@ -16,8 +16,7 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   metadataBase: new URL("https://auraatelier.studio"),
   title: "Aura Atelier by V",
-  description:
-    "Atelier privado del Altiplano. Piezas con aura, por invitación.",
+  description: "Atelier privado. Piezas con aura, por invitación.",
   openGraph: {
     title: "Aura Atelier by V",
     description:

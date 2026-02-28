@@ -2,16 +2,16 @@ export const masterplanSourceFile =
   "aura_atelier_by_v_biblia_de_vibe_y_plan_maestro_es_pdf_safe.md";
 
 export const masterplanDocumentTitle =
-  "# Aura Atelier by V — Biblia de Vibe y Plan Maestro de Preventa (Fase Pre‑Selling)";
+  "# Aura Atelier by V — Manifiesto";
 
 export const corePhilosophyVerbatim = `## 0) Estrella Polar
 
-**Crear deseo sin vender.** Construir un aura de atelier privado: oficio couture, misticismo boliviano, origen Altiplano, acceso limitado.
+**Crear deseo sin vender.** Construir un atelier privado de oficio couture, misticismo boliviano y acceso limitado.
 
 **Línea de posicionamiento (elige una):**
 
-- *Atelier privado del Altiplano. Piezas con aura. Por invitación.*
-- *Sombrerería haute couture. Hecho en Bolivia. Por cita.*
+- *Atelier privado. Piezas con aura. Por invitación.*
+- *Sombrerería haute couture. Hecho en Bolivia. Por invitación.*
 - *Objetos con aura: una sola pieza, un solo destino.*
 
 **Audiencia:** coleccionistas IYKYK, estilistas, editores, viajeros, compradores de tiendas‑museo, clientes de lujo que valoran oficio + cultura.
@@ -24,7 +24,7 @@ export const emotionalPromiseVerbatim = `# Apéndice A — Aura Preserve (Declar
 
 Aura Preserve existe para demostrar que la belleza puede ser protegida — no consumida.
 
-Nacimos en Bolivia, desde el Altiplano, con un principio simple:  
+Nacimos en Bolivia, con un principio simple:  
 **cuando el valor sube, la extracción baja.**
 
 Creamos objetos de autor — raros, lentos, responsables — para que los lugares frágiles no tengan que venderse al volumen.
@@ -49,56 +49,28 @@ Es **oficio**, **restricción**, **trazabilidad** y **consecuencia**.
 Cada obra que sale del atelier deja un rastro:  
 **un rastro de belleza** y **un rastro de protección**.
 
-Fundado por **Vuelo de Uyuni**  
+Fundado por **Aura Atelier by V**  
 by V.`;
 
-export const homeVerbatim = {
+export const homeHeroContent = {
   heroTitle: "Aura Atelier by V",
-  tagline: "Atelier privado del Altiplano.",
+  tagline: "ATELIER PRIVADO.",
   subtitle: "Piezas con aura — por invitación.",
-  lead:
-    "**Crear deseo sin vender.** Construir un aura de atelier privado: oficio couture, misticismo boliviano, origen Altiplano, acceso limitado.",
+  mission: [
+    "Aura Atelier by V es un espacio sagrado donde la esencia de cada mujer se transforma en piezas únicas de haute couture.",
+    "Sombreros de autor, ascots femeninos, cadenas corporales, pulseras y joyería de autor — cada creación lleva una Bolivianita auténtica de Bolivia como corazón vivo.",
+    "Crear deseo sin vender.",
+    "Solo por invitación. Acceso limitado.",
+  ],
   primaryCta: {
-    label: "Entrar al Atelier Privado",
+    label: "ENTRAR AL ATELIER PRIVADO",
     href: "/auth",
   },
   secondaryCta: {
-    label: "Ver manifiesto",
+    label: "VER MANIFIESTO",
     href: "/manifiesto",
   },
 } as const;
-
-export const homePillarsVerbatim = [
-  {
-    title: "**Línea de posicionamiento (elige una):**",
-    lines: [
-      "- *Atelier privado del Altiplano. Piezas con aura. Por invitación.*",
-      "- *Sombrerería haute couture. Hecho en Bolivia. Por cita.*",
-      "- *Objetos con aura: una sola pieza, un solo destino.*",
-    ],
-  },
-  {
-    title: "**Audiencia:**",
-    lines: [
-      "coleccionistas IYKYK, estilistas, editores, viajeros, compradores de tiendas‑museo, clientes de lujo que valoran oficio + cultura.",
-    ],
-  },
-  {
-    title: "**Tono:**",
-    lines: ["maison‑minimal + místico. Corto. Poético. Cero venta dura. Máximo 1–2 emojis."],
-  },
-] as const;
-
-export const uyuniChapterVerbatim = `### Pin #3 — Uyuni / Editorial (Lenka)
-
-**Copy:**
-
-- *Primer capítulo: Uyuni.*
-- *Atelier privado. Por invitación.*
-
-1. **Primer capítulo — Uyuni**  
-   El Altiplano guarda su propia luz.  
-   Atelier privado. Por invitación.`;
 
 export const byAppointmentVerbatim = `### B) Por cita — *Atelier Experience* (2 cupos/mes)
 
