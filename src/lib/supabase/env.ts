@@ -1,5 +1,4 @@
-function readEnv(name: string) {
-  const value = process.env[name];
+function assertEnv(value: string | undefined, name: string) {
   if (!value) {
     throw new Error(`Missing environment variable: ${name}`);
   }
@@ -7,15 +6,29 @@ function readEnv(name: string) {
 }
 
 export function getSupabasePublicEnv() {
+  const url = assertEnv(
+    process.env.NEXT_PUBLIC_SUPABASE_URL,
+    "NEXT_PUBLIC_SUPABASE_URL",
+  );
+  const anonKey = assertEnv(
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY,
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY",
+  );
+
   return {
-    url: readEnv("NEXT_PUBLIC_SUPABASE_URL"),
-    anonKey: readEnv("NEXT_PUBLIC_SUPABASE_ANON_KEY"),
+    url,
+    anonKey,
   };
 }
 
 export function getSupabaseServiceRoleEnv() {
+  const serviceRoleKey = assertEnv(
+    process.env.SUPABASE_SERVICE_ROLE_KEY,
+    "SUPABASE_SERVICE_ROLE_KEY",
+  );
+
   return {
-    serviceRoleKey: readEnv("SUPABASE_SERVICE_ROLE_KEY"),
+    serviceRoleKey,
   };
 }
 
